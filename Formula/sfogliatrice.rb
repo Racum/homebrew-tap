@@ -5,7 +5,7 @@ class Sfogliatrice < Formula
 
   on_macos do
     url "https://github.com/racum/sfogliatrice/releases/download/v#{version}/sfogliatrice-macos-v#{version}.tar.gz"
-    sha256 "198ff18a86c350b9dbed42fb517cc605f6830ad83e6133e28ade987c91109624"
+    sha256 "75e022dc3fea7150b7944c1383b17d053ae647619dc71524283226f9f2284e22"
   end
 
   def install
