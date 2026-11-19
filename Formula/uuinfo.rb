@@ -1,11 +1,11 @@
 class Uuinfo < Formula
   desc "Tool to debug unique identifiers (UUID, ULID, Snowflake, etc)"
   homepage "https://github.com/racum/uuinfo"
-  version "0.7.5"
+  version "0.8.0"
 
   on_macos do
     url "https://github.com/racum/uuinfo/releases/download/v#{version}/uuinfo-macos-v#{version}.tar.gz"
-    sha256 "49b2d7d377f52a89510f260d99e27f2db9ecfc74a16fd112df9e45f084594e01"
+    sha256 "fadda574932ac94e37c11bf1d058a4cdf28c6eaf5de5cad49d6e8c850272b3ac"
   end
 
   def install
